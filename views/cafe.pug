@@ -1,0 +1,14 @@
+doctype html
+html 
+    head    
+        title #{tipo}  
+        meta(charset="utf-8")
+        link(rel="stylesheet" href="cafe.css")
+
+    body 
+        main 
+            h1 #{tipo} 
+            figure 
+                img( src=data.imagen width=750)
+                figCaption #{data.texto} 
+            a(href="/") Regresar
